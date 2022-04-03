@@ -1,0 +1,311 @@
+body{
+    font-family: 'Inter';
+}
+
+/* Começo da Header */
+
+header{
+    padding: 5px 10px;
+}
+
+.container{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+} 
+
+.logo{
+    display:inline-flex;
+    font-size: 18px;
+    align-items: center;
+}
+
+.logo h1{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.navegacao{
+    padding: 28px;
+}
+
+nav{
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 28px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #667085;
+}
+
+.botoes{
+   padding: 20px 0 0 310px;
+}
+
+.primeiroBotao{
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.segundoBotao{
+    border-radius: 7px;
+    width: 115px;
+    height: 45px;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #8E2424;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+/* Começo primeiro texto */
+
+.primeiroTexto{
+    text-align: center;
+    padding:100px;
+}
+
+.primeiroTexto span{
+    font-size: 16px;
+    color:#8E2424;
+    font-weight: bolder ;
+    line-height: 20px;
+}
+
+.primeiroTexto h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+.primeiroTexto p{
+    color: #667085;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* Começo metricas */
+
+.metricas{
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.espacoMetricas{
+    margin-left: 50px;
+}
+
+.metricas h2{
+    font-size: 50px;
+    display: inline;
+    color: #8E2424;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.metricas h3{
+    font-weight: bold;
+    line-height: 40px;
+}
+.metricas h4{
+    color: #667085;
+    line-height: 20px;
+}
+
+/* Inicio vagas */
+
+.textoVagas{
+    text-align: center;
+    padding: 0px;
+    margin-top: 150px;
+}
+
+.textoVagas span{
+    font-size: 14px;
+    color:#8E2424;
+    font-weight: 600;
+    line-height: 18px;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.textoVagas h1{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 100px;
+    text-align: center;
+}
+
+.textoVagas p{
+    color: #667085;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.textoVagas img{
+    margin-top: 60px;
+}
+
+/* Inicio descricao das vagas */
+
+.vagas{
+    text-align: center;
+}
+
+.vagas h1{
+    font-size: 20px;
+    font-weight: 600;
+    width: 51%;
+    text-align: start;
+    margin: 80px auto 40px auto;
+}
+
+.caixinha{
+    border: 1px solid #e3e4e6;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: start;
+    padding: 24px 24px;
+    width: 50%;
+    margin: auto auto 20px auto;
+    line-height: 50px;
+}
+
+.caixinha h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.caixinha p{
+    display: inline;
+    font-size:16px ;
+    color: #667085;
+    font-weight: 500;
+    margin: 0px 8px;
+}
+
+/* Inicio colaboradores */
+
+.colaboradores{
+    text-align: center;
+    background-color: rgba(196, 25, 25, 0.03);
+    border-radius: 15px;
+    box-sizing: content-box;
+    padding: 65px;
+    justify-content: center;
+    width:1400px;
+    height: 300px;
+    margin: 90px auto;
+    line-height: 30px;
+}
+
+.colaboradores span{
+    font-size: 14px;
+    color:#8E2424;
+    font-weight: bolder ;
+}
+
+.colaboradores h1{
+    font-size: 36px;
+    font-weight: 600;
+    width: 90%;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+}
+
+.colaboradores h3{
+    font-weight: bold;
+}
+
+.colaboradores h4{
+    color: #667085;
+}
+
+.colaboradores img{
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* Inicio footer */
+
+footer{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 120px;
+    padding: 96px 0px;
+    background-color: #F9FAFB;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column ;
+}
+
+footer h1{
+   
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+footer h2{
+    color:#667085 ;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+#email{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D0D5DD;
+    width: 300px;
+    font-size: 16px;
+    color:#667085;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+#botao{
+    border-radius: 7px;
+    width: 120px;
+    height: 45px;
+    font-family: 'Inter';
+    font-size: 16px;
+    background-color: #8E2424;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 12px;
+}
+
+.input{
+    flex-direction: row;
+    padding: 1%;
+
+}
+
+footer p{
+    font-size: 16px;
+    color: #9196a0;
+    line-height: 70px;
+}
+
+
+/* #667085
+#8E2424 */
